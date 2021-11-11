@@ -6,6 +6,7 @@
 <template>
   <div class="rou">
     <router-link to="/">home</router-link>
+    <router-link to="/zhang">zhang</router-link>
   </div>
   <router-view></router-view>
 </template>
