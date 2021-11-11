@@ -10,6 +10,10 @@ const routes=[
 		path:"/test",
 		name:"Test",
 		component: ()=>import('../views/Test.vue')
+  {
+		path:"/list",
+		name:"List",
+		component:()=>import('../views/List.vue')
 	}
 ]
 const router=createRouter({
