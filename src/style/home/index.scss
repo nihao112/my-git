@@ -1,0 +1,22 @@
+.infinite-list-wrapper {
+  height: 300px;
+  text-align: center;
+
+  .list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: var(--el-color-danger-lighter);
+    color: var(--el-color-danger);
+    & + .list-item {
+      margin-top: 10px;
+    }
+  }
+}
