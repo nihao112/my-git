@@ -9,6 +9,7 @@
     <router-link to="/zhang">zhang</router-link>
     <router-link to="/list">list</router-link>|
     <router-link to="/test">test</router-link>|
+    <router-link to="/work">work</router-link>|
     <router-view></router-view>
   </div>
 </template>
