@@ -5,10 +5,11 @@
 
 <template>
   <div class="rou">
-    <router-link to="/">home</router-link> |
-    <router-link to="/list">list</router-link>
+    <router-link to="/">home</router-link>|
+    <router-link to="/list">list</router-link>|
+    <router-link to="/test">test</router-link>|
+    <router-view></router-view>
   </div>
-  <router-view></router-view>
 </template>
 
 <style >

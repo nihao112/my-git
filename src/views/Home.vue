@@ -1,4 +1,9 @@
-<script setup>
+<script>
+export default{
+  setup(){
+    
+  }
+}
 </script>
 <template>
   <div>我是home</div>
